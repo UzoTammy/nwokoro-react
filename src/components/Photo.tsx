@@ -1,12 +1,13 @@
 import { Image } from "@chakra-ui/react";
+import pic from '../assets/UzoTammy.jpg'
 
 const Photo = () => {
   return (
     <Image
-      borderRadius="full"
-      boxSize="150px"
-      src="https://bit.ly/dan-abramov"
-      alt="Dan Abramov"
+      borderRadius="20px"
+      boxSize="200px"
+      src={pic}
+      alt="Uzo Tammy Nwokoro"
     />
   );
 };
