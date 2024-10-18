@@ -1,6 +1,7 @@
 import { Box, Grid, GridItem, Heading } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import Photo from "./components/Photo";
+import Fullname from "./components/Fullname";
 
 function App() {
   return (
@@ -18,10 +19,7 @@ function App() {
               transform="translate(-50%, -50%)"
             >
               <Photo />
-              <Heading size='xl' as='h2' marginY={2}>Uzo</Heading>
-              <Heading size='xl' as='h2' marginY={1}>Tammy</Heading>
-              <Heading size='xl' as='h2' marginY={1}>Nwokoro</Heading>
-              
+              <Fullname />
             </Box>
           </Box>
           <Box height="100vh">Section 2</Box>
