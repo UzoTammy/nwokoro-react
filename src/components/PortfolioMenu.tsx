@@ -8,11 +8,11 @@ const PortfolioMenu = () => {
         Portfolio
       </MenuButton>
       <MenuList>
-        <MenuItem as='a'  href="#">Link 1</MenuItem>
-        <MenuItem as='a'  href="#">Link 2</MenuItem>
-        <MenuItem as='a'  href="#">Link 3</MenuItem>
-        <MenuItem as='a'  href="#">Link 4</MenuItem>
-        <MenuItem as='a'  href="#">Link 5</MenuItem>
+        <MenuItem as='a'  href="#">Scush: A Django project</MenuItem>
+        <MenuItem as='a'  href="#">Finuel: Another Django Project</MenuItem>
+        <MenuItem as='a'  href="#">Game Hub: A React, Typescript and Chakra project</MenuItem>
+        <MenuItem as='a'  href="#">My Blog: A Flask project</MenuItem>
+        <MenuItem as='a'  href="#">Dfads</MenuItem>
       </MenuList>
     </Menu>
   );

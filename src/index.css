@@ -1,0 +1,11 @@
+a {
+    background-color: blue;
+}
+
+.first-letter::first-letter {
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: red;
+    
+}

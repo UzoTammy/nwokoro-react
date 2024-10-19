@@ -1,8 +1,12 @@
-import { Box, Flex, Grid, GridItem, Heading } from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem, HStack, Text } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import Photo from "./components/Photo";
 import Fullname from "./components/Fullname";
 import SocialMedia from "./components/SocialMedia";
+import Introduction from "./components/Introduction";
+import './index.css'
+import Timeline from "./components/Timeline";
+import { MdCopyright } from "react-icons/md";
 
 function App() {
   return (
@@ -12,7 +16,7 @@ function App() {
       </GridItem>
       
       <GridItem area="main">
-        <Grid templateColumns="1fr 2fr" gap={4}>
+        <Grid templateColumns={{ base: '1fr', lg: "1fr 2fr" }} gap={4}>
           <Grid templateRows="2fr 3fr" padding={5}>
             <Flex direction='column' alignItems="center" justifyContent="center" height="100%">
               <Photo />
@@ -20,10 +24,18 @@ function App() {
               <SocialMedia />
             </Flex>
             <Box textAlign="left">
-              <Heading as='h1'>Hello world</Heading>
+              <Introduction />
             </Box>  
           </Grid>
-          <Box height="100vh">Section 2</Box>
+          <Grid padding={2}>
+            <Timeline />
+            <Box marginTop={5} bg='whiteAlpha' height={'30px'}>
+              <HStack>
+                <MdCopyright />
+                <Text>2024</Text>
+              </HStack>
+            </Box>
+          </Grid>
         </Grid>
       </GridItem>
     </Grid>
@@ -31,3 +43,4 @@ function App() {
 }
 
 export default App;
+
