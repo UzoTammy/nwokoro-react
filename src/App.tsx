@@ -32,7 +32,7 @@ function App() {
             <Box marginTop={5} bg='whiteAlpha' height={'30px'}>
               <HStack>
                 <MdCopyright />
-                <Text>2024</Text>
+                <Text>2024 designed by Me</Text>
               </HStack>
             </Box>
           </Grid>
