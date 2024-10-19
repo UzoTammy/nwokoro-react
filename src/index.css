@@ -1,5 +1,5 @@
-a {
-    background-color: blue;
+a:hover {
+    text-decoration-line: none;
 }
 
 .first-letter::first-letter {
