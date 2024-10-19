@@ -1,5 +1,6 @@
 import { Heading, HStack, List, ListIcon, ListItem, Text } from '@chakra-ui/react'
 import { CiCircleCheck } from 'react-icons/ci'
+import { FaBook } from 'react-icons/fa'
 
 const Period2023 = () => {
   return (
@@ -7,7 +8,7 @@ const Period2023 = () => {
       <Heading as={'h3'} fontSize={'2xl'}>Google Career Certificate Program</Heading>
       <HStack>
 
-        <Text as={'b'}>Project <br/>Management </Text>
+        <Text as={'b'}>Project <br/>Management <FaBook color='pink'/></Text>
         <List>
           <ListItem>
             <ListIcon as={CiCircleCheck} color='green.500' />

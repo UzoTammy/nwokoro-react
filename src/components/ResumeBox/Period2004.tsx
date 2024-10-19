@@ -1,12 +1,13 @@
 import { Box, Heading, HStack, List, ListIcon, ListItem, Text } from "@chakra-ui/react"
 import { CiCircleCheck } from "react-icons/ci";
+import { FaToolbox } from "react-icons/fa";
 
 const Period2004 = () => {
     return (
       <>
         <Heading fontSize={'2xl'}>Shell Nigeria Gas Ltd</Heading>
             <HStack>
-        <Text as={"b"}>Engineering <br />Intern</Text>
+        <Text as={"b"}>Engineering <br />Intern <FaToolbox color="orange"/></Text>
         <List>
           <ListItem>
             <ListIcon as={CiCircleCheck} color="green.500" />

@@ -7,7 +7,7 @@ const NavBar = () => {
     <HStack justifyContent="space-between" padding={2}>
       <Wrap>
         <WrapItem>
-          <Avatar colorScheme="white" name="Uzo Nwokoro" src="#" />
+          <Avatar name="Uzo Nwokoro" src="#" />
         </WrapItem>
       </Wrap>
       

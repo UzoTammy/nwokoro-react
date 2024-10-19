@@ -1,6 +1,6 @@
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Box, HStack, Link } from "@chakra-ui/react";
-import { FaFacebook, FaTiktok, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaEnvelope, FaEnvelopeOpen, FaFacebook, FaTiktok, FaTwitter, FaYoutube } from "react-icons/fa";
 
 
 const SocialMedia = () => {
@@ -14,6 +14,11 @@ const SocialMedia = () => {
       <Box>
         <Link href="https://www.x.com/UzoTammy" isExternal>
           <FaTwitter color="#0096ff" size={25}/>
+        </Link>
+      </Box>
+      <Box>
+        <Link href="mailto:uzo.tammy@gmail.com" isExternal>
+          <FaEnvelope color="pink.500" size={25}/>
         </Link>
       </Box>
       <Box>
