@@ -12,7 +12,7 @@ import {
   useSteps,
 } from "@chakra-ui/react";
 
-import Period2024 from "./ResumeBox/period2024";
+import Period2024 from "./ResumeBox/PeriodLatest";
 import Period2023 from "./ResumeBox/Period2023";
 import Period2022 from "./ResumeBox/Period2022";
 import Period2005 from "./ResumeBox/Period2008";
