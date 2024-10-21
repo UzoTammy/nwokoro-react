@@ -46,7 +46,7 @@ const Introduction = () => {
       </List>
       <Text marginTop={3} className="first-letter">
         View my{" "}
-        <Link color="pink.500" href="#">
+        <Link textDecoration='none' _hover={{ textDecoration: 'none' }} color="pink.500" href="#">
           portfolio
         </Link>{" "}
         to see my personal projects.
