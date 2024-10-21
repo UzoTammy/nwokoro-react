@@ -1,5 +1,5 @@
 import { ChevronDownIcon, ExternalLinkIcon } from "@chakra-ui/icons";
-import { Button,Link, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
+import { Button,Link, Menu, MenuButton, MenuItem, MenuList, textDecoration } from "@chakra-ui/react";
 
 const PortfolioMenu = () => {
   return (
@@ -8,7 +8,7 @@ const PortfolioMenu = () => {
         Portfolio
       </MenuButton>
       <MenuList>
-        <MenuItem>Scush: <Link href="https://scush.com.ng" isExternal>Django project <ExternalLinkIcon mx='2px' /></Link></MenuItem>
+        <MenuItem>Scush: <Link textDecoration='none' _hover={{ textDecoration: 'none' }} href="https://scush.com.ng" isExternal>Django project <ExternalLinkIcon mx='2px' /></Link></MenuItem>
         <MenuItem>Finuel: <Link href="https://www.finuel.org" isExternal>Django project <ExternalLinkIcon mx='2px' /></Link></MenuItem>
         <MenuItem>Game Hub: <Link href="#" isExternal>React & Typescript project<ExternalLinkIcon mx='2px' /></Link></MenuItem>
         <MenuItem>My Blog:  <Link href="#" isExternal>Flask project <ExternalLinkIcon mx='2px' /></Link></MenuItem>

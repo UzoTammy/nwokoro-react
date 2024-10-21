@@ -10,11 +10,11 @@ import { MdCopyright } from "react-icons/md";
 
 function App() {
   return (
-    <Grid templateAreas={{ base: '"nav" "main"' }}>
-      <GridItem area="nav">
+    <Grid templateAreas={{ base: '"navTop" "main" "navBottom"' }}>
+      <GridItem area="navTop">
         <NavBar />
       </GridItem>
-      
+
       <GridItem area="main">
         <Grid templateColumns={{ base: '1fr', lg: "1fr 2fr" }} gap={4}>
           <Grid templateRows="2fr 3fr" padding={5}>
@@ -25,18 +25,21 @@ function App() {
             </Flex>
             <Box textAlign="left">
               <Introduction />
-            </Box>  
+            </Box>
           </Grid>
           <Grid padding={2}>
             <Timeline />
             <Box marginTop={5} bg='whiteAlpha' height={'30px'}>
-              <HStack>
-                <MdCopyright />
-                <Text>2024 designed by Me</Text>
-              </HStack>
             </Box>
           </Grid>
         </Grid>
+      </GridItem>
+
+      <GridItem padding={5} area='navBottom' bg='blue.100'>
+        <HStack justifyContent='center'>
+          <MdCopyright />
+          <Text>2024 designed by Me</Text>
+        </HStack>
       </GridItem>
     </Grid>
   );
