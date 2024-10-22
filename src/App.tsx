@@ -10,7 +10,7 @@ import { MdCopyright } from "react-icons/md";
 
 function App() {
   return (
-    <Grid templateAreas={{ base: '"navTop" "main" "navBottom"' }}>
+    <Grid templateAreas={{ base: '"navTop" "main" "navBottom"' }} overflowX='auto'>
       <GridItem area="navTop">
         <NavBar />
       </GridItem>
@@ -35,7 +35,7 @@ function App() {
         </Grid>
       </GridItem>
 
-      <GridItem padding={5} area='navBottom' bg='blue.100'>
+      <GridItem padding={5} area='navBottom' bg='blue.100' display={{ base: "none", lg: "block" }}>
         <HStack justifyContent='center'>
           <MdCopyright />
           <Text>2024 designed by Me</Text>

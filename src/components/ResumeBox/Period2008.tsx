@@ -6,36 +6,26 @@ const Period2008 = () => {
     <>
       <Heading fontSize={"2xl"}>Ikenna Commercial Company Ltd</Heading>
       <HStack>
-        <Text as={"b"}>Business <br />Development <FaToolbox color="orange"/></Text>
+        <Text as={"b"}>Business <br />Development <FaToolbox color="orange" /></Text>
         <List>
+
           <ListItem>
-            <ListIcon as={CiCircleCheck} color="green.500" />
-            Process Optimization: Develop skills to analyze business processes,
-            identify <br />
-            inefficiencies, and implement strategies to streamline operations
-            and increase productivity.
+            <ListIcon as={CiCircleCheck} color='green.500' />
+            Improved business processes for efficiency and effectiveness
           </ListItem>
           <ListItem>
-            <ListIcon as={CiCircleCheck} color="green.500" />
-            Resource Management: Learn to effectively manage resources,
-            including budgeting, <br />
-            allocation of staff, and equipment, to ensure optimal business
-            performance.
+            <ListIcon as={CiCircleCheck} color='green.500' />
+            Developed and implemented growth strategies
           </ListItem>
           <ListItem>
-            <ListIcon as={CiCircleCheck} color="green.500" />
-            Data Analysis and Decision-Making: Gain the ability to analyze
-            operational data, <br />
-            generate insights, and make informed decisions that support business
-            objectives.
+            <ListIcon as={CiCircleCheck} color='green.500' />
+            Managed daily inflow and outflow of goods
           </ListItem>
           <ListItem>
-            <ListIcon as={CiCircleCheck} color="green.500" />
-            Team Leadership and Cross-Department Coordination: Acquire the
-            ability to lead teams and facilitate coordination <br /> across
-            different departments to ensure smooth, cohesive operations and
-            achieve company goals.
+            <ListIcon as={CiCircleCheck} color='green.500' />
+            Controlled budget to save costs and boost profitability
           </ListItem>
+
         </List>
       </HStack>
     </>

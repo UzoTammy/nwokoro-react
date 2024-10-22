@@ -12,24 +12,24 @@ const Period2023 = () => {
         <List>
           <ListItem>
             <ListIcon as={CiCircleCheck} color='green.500' />
-            Planning and Scheduling: Learnt to develop comprehensive project plans, set timelines,
-            <br/> and allocate resources effectively to ensure successful project execution.
+            Learnt to develop comprehensive project plans, set  timelines,
+             and <br/> allocate resources effectively to ensure successful project execution.
           </ListItem>
           <ListItem>
             <ListIcon as={CiCircleCheck} color='green.500' />
-            Risk Management: Acquired skills to identify, assess, and mitigate project risks,
-            <br/>ensuring potential issues are addressed proactively.
+            Acquired skills to identify, assess, and mitigate project <br/> risks,
+            ensuring potential issues are addressed proactively.
           </ListItem>
           <ListItem>
             <ListIcon as={CiCircleCheck} color='green.500' />
-            Team Leadership and Communication: Develop the ability to lead project teams, motivate members,
-            <br/>and facilitate clear communication across stakeholders for alignment and collaboration.
+            Developed the ability to lead project teams, motivate members,
+            and facilitate <br/> clear communication across stakeholders for alignment and collaboration.
           </ListItem>
           <ListItem>
             
             <ListIcon as={CiCircleCheck} color='green.500' />
-            Scope and Quality Management: Understand how to define project scope accurately, control changes,
-            <br/>and ensure the project meets quality standards and delivers desired outcomes.
+            Understood how to define project scope accurately, control changes,
+            and <br/> ensure the project meets quality standards and delivers desired outcomes.
           </ListItem>
         </List>
       </HStack>

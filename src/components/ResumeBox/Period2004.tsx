@@ -11,24 +11,24 @@ const Period2004 = () => {
         <List>
           <ListItem>
             <ListIcon as={CiCircleCheck} color="green.500" />
-                Safety Awareness: Trained to become conscious of safety as the most relevant in any endeavour
+                Trained to become conscious of safety as the most relevant in any endeavour
           </ListItem>
           <ListItem>
             <ListIcon as={CiCircleCheck} color="green.500" />
             
-                Risk Assessment and Hazard Identification: Developed skills to identify potential hazards, assess<br/>
-                risks, and implement appropriate measures to mitigate dangers before they lead to incidents.
+              Developed skills to identify potential hazards, assess risks, and implement
+              <br/> appropriate measures to mitigate dangers before they lead to incidents.
             
           </ListItem>
           <ListItem>
             <ListIcon as={CiCircleCheck} color="green.500" />
-                Safety Training and Awareness: Gained the ability to train team members on safety protocols,<br/>
-                foster safety awareness, and ensure all personnel understand and follow safety procedures.
+              Gained the ability to train team members on safety protocols, foster safety <br/>
+              awareness, and ensure all personnel understand and follow safety procedures.
           </ListItem>
           <ListItem>
             <ListIcon as={CiCircleCheck} color="green.500" />
-                Incident Response and Reporting: Acquired skills in responding to incidents, documenting safety <br/>
-                breaches, and conducting root cause analysis to prevent future occurrences.
+                Acquired skills in responding to incidents, documenting 
+                safety breaches, <br/> and conducting root cause analysis to prevent future occurrences.
           </ListItem>
         </List>
       </HStack>

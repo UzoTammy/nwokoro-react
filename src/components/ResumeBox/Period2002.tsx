@@ -13,25 +13,24 @@ const Period2002 = () => {
         <List>
           <ListItem>
                 <ListIcon as={CiCircleCheck} color="green.500" />
-                Problem-Solving and Analytical Thinking: Learn to systematically analyze complex problems,<br/>
-                break them into components, and develop effective solutions using logical reasoning.
+              Learnt to systematically analyze complex problems, break them into <br />
+              components, and develop effective solutions using logical reasoning.
           </ListItem>
           <ListItem overflowWrap="break-word">
             <ListIcon as={CiCircleCheck} color="green.500" />
-                Creativity and Innovation: Develop skills to approach challenges with a creative mindset,<br/>
-                design new solutions, and innovate in engineering processes and product development.
-
+              Developed skills to approach challenges with a creative mindset, design new <br/>
+              solutions, and innovate in engineering processes and product development.
           </ListItem>
           <ListItem>
             <ListIcon as={CiCircleCheck} color="green.500" />
-            Attention to Detail: Acquire the ability to meticulously focus on detailed aspects of design,<br/>
+            Acquired the ability to meticulously focus on detailed aspects of design, <br/>
             implementation, and analysis to ensure quality, accuracy, and safety in engineering work.
                             
           </ListItem>
           <ListItem>
             <ListIcon as={CiCircleCheck} color="green.500" />
-                Communication and Teamwork: Learn to communicate technical information effectively and <br/>
-                collaborate within multidisciplinary teams to achieve project objectives.
+                Learnt to communicate technical information effectively and 
+                collaborate <br/> within multidisciplinary teams to achieve project objectives.
           </ListItem>
         </List>    
         </HStack>
